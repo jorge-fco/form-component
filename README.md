@@ -23,7 +23,10 @@ Form component
 ```
 
 5.- Add code JavaScript
-```
+```javascript
+// Init grecaptcha response
+var response = grecaptcha.getResponse();
+
 // Check reCaptcha response
 if(response.length == 0) {
   // ❌ reCaptcha not verified
