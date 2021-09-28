@@ -1,6 +1,14 @@
 # Form component
 Form component
 
+### Form
+- action=""
+- method="post"
+- name="contact"
+- autocomplete="off"
+- accept-charset="utf-8"
+- enctype="multipart/form-data" (_only upload files_)
+
 ### Inputs
 - Name
 - Email
