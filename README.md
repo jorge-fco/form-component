@@ -8,9 +8,18 @@ Form component
 - Message
 
 ### 🔄 reCAPTCHA
-Add script
+1.- Add script
 ```html
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+```
+
+2.- Create project: https://www.google.com/recaptcha/about/
+
+3.- Generate Site Key.
+
+4.- Add element HTML
+```html
+<div class="g-recaptcha" data-sitekey="your_site_key"></div>
 ```
 
 ### ⚙️ Tools
