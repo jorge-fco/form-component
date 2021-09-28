@@ -30,12 +30,13 @@ var response = grecaptcha.getResponse();
 // Check reCaptcha response
 if(response.length == 0) {
   // ❌ reCaptcha not verified
+  console.log('El catpcha no ha sido completado');
 }else{
   // ✅ reCaptch verified reset
-	grecaptcha.reset();
+  grecaptcha.reset();
   
-  // Submit AJAX
-	_FormSubmit();
+  // 📤 Submit AJAX
+  _FormSubmit();
 }
 ```
 
