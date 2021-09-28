@@ -22,6 +22,19 @@ Form component
 <div class="g-recaptcha" data-sitekey="your_site_key"></div>
 ```
 
+5.- Add code JavaScript
+```
+if(response.length == 0) {
+  // ❌ reCaptcha not verified
+}else{
+  // ✅ reCaptch verified reset
+	grecaptcha.reset();
+  
+  // Submit AJAX
+	_FormSubmit();
+}
+```
+
 ### ⚙️ Tools
 - 🔗 [PHPMailer](https://github.com/PHPMailer/PHPMailer)
 - 🔗 [reCAPTCHA](https://developers.google.com/recaptcha/docs/display)
