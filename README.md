@@ -8,6 +8,7 @@ Form component
 - autocomplete="off"
 - accept-charset="utf-8"
 - enctype="multipart/form-data" (_only upload files_)
+- novalidate="novalidate" (_no validate inputs with HTML5_)
 
 ### Inputs
 - Name
