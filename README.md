@@ -7,6 +7,12 @@ Form component
 - Phone
 - Message
 
-### Tools
-- [PHPMailer](https://github.com/PHPMailer/PHPMailer)
-- [recaptcha](https://developers.google.com/recaptcha/docs/display)
+### 🔄 reCAPTCHA
+Add script
+```html
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+```
+
+### ⚙️ Tools
+- 🔗 [PHPMailer](https://github.com/PHPMailer/PHPMailer)
+- 🔗 [reCAPTCHA](https://developers.google.com/recaptcha/docs/display)
