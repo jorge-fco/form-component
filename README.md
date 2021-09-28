@@ -1,11 +1,12 @@
 # Form component
 Form component
 
-https://github.com/PHPMailer/PHPMailer
-
-
 ### Inputs
 - Name
 - Email
 - Phone
 - Message
+
+### Tools
+- [PHPMailer](https://github.com/PHPMailer/PHPMailer)
+- [recaptcha](https://developers.google.com/recaptcha/docs/display)
