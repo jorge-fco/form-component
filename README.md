@@ -24,6 +24,7 @@ Form component
 
 5.- Add code JavaScript
 ```
+// Check reCaptcha response
 if(response.length == 0) {
   // ❌ reCaptcha not verified
 }else{
