@@ -45,6 +45,7 @@
 					</div>
 					<!--NAME-->
 
+					<!--LAST NAME-->
 					<div class="form__item" role="item">
 						<label for="lastname"><span>*</span>Apellido</label>
 						<input type="text" name="lastname" class="js-form-input-last-name"
@@ -56,6 +57,7 @@
 
 						<div class="form__message__input js-form-input-message" role="alert"></div>
 					</div>
+					<!--LAST NAME-->
 
 					<!--EMAIL-->
 					<div class="form__item" role="item">
@@ -75,10 +77,11 @@
 					<div class="form__item" role="item">
 						<label for="phone"><span>*</span>Phone</label>
 						<input type="tel" name="phone" class="js-form-input-phone"
+							placeholder="(33) 1234-5678"
 							pattern="[0-9\-]*"
-							maxlength="10"
-							minlength="10"
-							size="10"
+							maxlength="13"
+							minlength="13"
+							size="13"
 							id="phone"
 							required="true">
 
@@ -92,7 +95,7 @@
 					</div>
 
 					<div class="form__item" role="item">
-						<button type="submit" name="submit" class="button js-form-button-submit">
+						<button type="submit" name="submit" class="button button-primary js-form-button-submit">
 							Enviar
 							<i class="fas fa-paper-plane"></i>
 						</button>
@@ -107,7 +110,7 @@
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/ScrollToPlugin.min.js"></script>
-	<script src="assets/js/form.js?v=0.02"></script>
+	<script src="assets/js/form.js?v=0.03"></script>
 </body>
 </html>
 

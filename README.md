@@ -20,6 +20,9 @@ Form component
 ### Features
 - Reset form
 - Validate inputs
+- Format phone
+- Show message
+- Submit Ajax
 
 ### 🔄 reCAPTCHA
 1.- Add script
@@ -53,6 +56,15 @@ if(response.length == 0) {
   grecaptcha.reset();
 }
 ```
+
+### Mailer
+1.- https://getcomposer.org/download/
+
+2.- (Global install), using for example:
+````
+sudo mv composer.phar /usr/local/bin/composer
+```
+
 
 ### ⚙️ Tools
 - jQuery

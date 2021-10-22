@@ -1,3 +1,8 @@
 assets/*
+vendor/*
 prepros.config
 prepros-6.config
+controller.php
+composer.lock
+composer.json
+composer-setup.php
