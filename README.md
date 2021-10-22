@@ -12,9 +12,14 @@ Form component
 
 ### Inputs
 - Name
+- Last Name
 - Email
 - Phone
 - Message
+
+### Features
+- Reset form
+- Validate inputs
 
 ### 🔄 reCAPTCHA
 1.- Add script
@@ -50,5 +55,7 @@ if(response.length == 0) {
 ```
 
 ### ⚙️ Tools
+- jQuery
+- Gsap
 - 🔗 [PHPMailer](https://github.com/PHPMailer/PHPMailer)
 - 🔗 [reCAPTCHA](https://developers.google.com/recaptcha/docs/display)
