@@ -1,3 +1,10 @@
+<?php
+	//Generate a random string.
+	$token = openssl_random_pseudo_bytes(16);
+
+	//Convert the binary data into hexadecimal representation.
+	$token = bin2hex($token);
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,8 +35,8 @@
 				</div>
 				<!--MESSAGE-->
 
-				<form action="#" method="post" class="js-form" accept-charset="UTF-8" autocomplete="off" name="contact" novalidate="novalidate">
-					<input type="hidden" name="token" value="">
+				<form action="controller" method="post" class="js-form" accept-charset="UTF-8" autocomplete="off" name="contact" novalidate="novalidate">
+					<input type="hidden" name="token" value="<?= $token; ?>">
 
 					<!--NAME-->
 					<div class="form__item" role="item">

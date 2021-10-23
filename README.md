@@ -58,13 +58,16 @@ if(response.length == 0) {
 ```
 
 ### Mailer
-1.- https://getcomposer.org/download/
+1.- https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos
 
-2.- (Global install), using for example:
+2.- https://getcomposer.org/download/
+
+3.- (Global install), using for example:
 ````
 sudo mv composer.phar /usr/local/bin/composer
 ```
 
+4.- https://github.com/PHPMailer/PHPMailer
 
 ### ⚙️ Tools
 - jQuery
