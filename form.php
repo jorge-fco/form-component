@@ -44,6 +44,7 @@
 						<input type="text" name="name" class="js-form-input-name"
 							maxlength="30"
 							size="30"
+							id="name"
 							pattern="[a-zA-Z]*"
 							data-required="true"
 							required="true">
@@ -58,6 +59,7 @@
 						<input type="text" name="lastname" class="js-form-input-last-name"
 							maxlength="30"
 							size="30"
+							id="lastname"
 							pattern="[a-zA-Z]*"
 							data-required="true"
 							required="true">
@@ -73,6 +75,7 @@
 							placeholder="example@gmail.com"
 							maxlength="30"
 							size="30"
+							id="email"
 							data-required="true"
 							required="true">
 
@@ -84,7 +87,7 @@
 					<div class="form__item" role="item">
 						<label for="phone"><span>*</span>Phone</label>
 						<input type="tel" name="phone" class="js-form-input-phone"
-							placeholder="(33) 1234-5678"
+							placeholder="(33) 1234 5678"
 							pattern="[0-9\-]*"
 							maxlength="13"
 							minlength="13"
@@ -98,7 +101,7 @@
 
 					<div class="form__item" role="item">
 						<label for="message">Mensaje</label>
-						<textarea name="message" maxlength="80" size="80"></textarea>
+						<textarea name="message" maxlength="80" size="80" id="message"></textarea>
 					</div>
 
 					<div class="form__item" role="item">
@@ -117,7 +120,7 @@
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/ScrollToPlugin.min.js"></script>
-	<script src="assets/js/form.js?v=0.03"></script>
+	<script src="assets/js/form.js?v=0.04"></script>
 </body>
 </html>
 

@@ -24,6 +24,18 @@ Form component
 - Show message
 - Submit Ajax
 
+### Mailer
+1.- https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos
+
+2.- https://getcomposer.org/download/
+
+3.- (Global install), using for example:
+```
+sudo mv composer.phar /usr/local/bin/composer
+```
+
+4.- https://github.com/PHPMailer/PHPMailer
+
 ### 🔄 reCAPTCHA
 1.- Add script
 ```html
@@ -46,28 +58,16 @@ var response = grecaptcha.getResponse();
 
 // Check reCaptcha response
 if(response.length == 0) {
-  // ❌ reCaptcha not verified
-  console.log('El catpcha no ha sido completado');
+	// ❌ reCaptcha not verified
+	console.log('El catpcha no ha sido completado');
 }else{
-  // 📤 Submit AJAX
-  _FormSubmit();
+	// 📤 Submit AJAX
+	_FormSubmit();
   
-  // ✅ reCaptch verified reset
-  grecaptcha.reset();
+	// ✅ reCaptch verified reset
+	grecaptcha.reset();
 }
 ```
-
-### Mailer
-1.- https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos
-
-2.- https://getcomposer.org/download/
-
-3.- (Global install), using for example:
-````
-sudo mv composer.phar /usr/local/bin/composer
-```
-
-4.- https://github.com/PHPMailer/PHPMailer
 
 ### ⚙️ Tools
 - jQuery
