@@ -104,11 +104,17 @@
 						<textarea name="message" maxlength="80" size="80" id="message"></textarea>
 					</div>
 
+					<!--SUBMIT BUTTON-->
 					<div class="form__item" role="item">
 						<button type="submit" name="submit" class="button button-primary js-form-button-submit">
 							Enviar
 							<i class="fas fa-paper-plane"></i>
 						</button>
+					</div>
+					<!--SUBMIT BUTTON-->
+
+					<div class="form__item" role="item">
+						<div class="g-recaptcha" data-sitekey="your_site_key" role="recaptcha"></div>
 					</div>
 				</form>
 			</div>

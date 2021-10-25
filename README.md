@@ -1,5 +1,5 @@
-# Form component
-Form component
+# 📋 Form component
+Formulario para proyectos web.
 
 ### Form
 - action=""
@@ -10,21 +10,22 @@ Form component
 - enctype="multipart/form-data" (_only upload files_)
 - novalidate="novalidate" (_no validate inputs with HTML5_)
 
-### Inputs
+### 🏷 Inputs
 - Name
 - Last Name
 - Email
 - Phone
 - Message
 
-### Features
+### 🛠 Features
 - Reset form
 - Validate inputs
-- Format phone
+- ❗️Format phone
 - Show message
 - Submit Ajax
+- recaptcha
 
-### Mailer
+### 📤 Mailer
 1.- https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos
 
 2.- https://getcomposer.org/download/
@@ -62,7 +63,7 @@ if(response.length == 0) {
 	console.log('El catpcha no ha sido completado');
 }else{
 	// 📤 Submit AJAX
-	_FormSubmit();
+	SubmitFormAJAX(_url, _data, _meth
   
 	// ✅ reCaptch verified reset
 	grecaptcha.reset();
@@ -72,5 +73,6 @@ if(response.length == 0) {
 ### ⚙️ Tools
 - jQuery
 - Gsap
+- Composer
 - 🔗 [PHPMailer](https://github.com/PHPMailer/PHPMailer)
 - 🔗 [reCAPTCHA](https://developers.google.com/recaptcha/docs/display)
